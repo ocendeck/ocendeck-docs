@@ -1,0 +1,20 @@
+title: Ocendeck Docs
+description: Ocendeck Docs Portal
+# Tema (menu lateral + busca)
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# GitHub Pages
+markdown: kramdown
+search_enabled: true
+color_scheme: nil  # ou "dark" se quiser
+
+# Navegação
+aux_links:
+  "Ocendeck":
+    - "https://ocendeck.com"
+
+# Opcional: logo e footer
+# logo: /assets/logo.png
+# footer_content: "© Ocendeck"
